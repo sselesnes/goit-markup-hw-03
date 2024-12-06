@@ -7,15 +7,35 @@ body {
   color: #434455;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px; /* 1128 layout + 2x15 padding*/
+  display: flex;
+}
 a {
   text-decoration: none;
 }
 
+.header {
+  display: flexbox;
+}
 .mainlogo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -78,27 +98,6 @@ a {
   font-style: normal;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
 .font-medium {
   font-weight: medium;
   font-size: 16px;
@@ -116,6 +115,7 @@ h3 {
 .benefits {
   background: #2e2f42;
 }
+
 .benefits-headline {
   font-weight: 700;
   font-size: 56px;
@@ -123,6 +123,8 @@ h3 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 188px;
+  max-width: 496px;
 }
 
 .order-button {
