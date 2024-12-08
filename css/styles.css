@@ -297,8 +297,7 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  /* margin-top: 32px; */
-  margin-bottom: 0;
+  margin-bottom: 8px;
 }
 
 .team-member-job-title,
@@ -309,8 +308,7 @@ section {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 8px;
-  /* margin-bottom: 32px; */
+  margin-bottom: 8px;
 }
 
 .project-title {
