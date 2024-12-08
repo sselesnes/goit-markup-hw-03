@@ -360,7 +360,7 @@ section {
   margin-bottom: 0;
 }
 
-.footer {
+.page-footer-bottom {
   background: #2e2f42;
   font-weight: 400;
   font-size: 16px;
@@ -368,9 +368,6 @@ section {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   text-align: left;
-}
-
-.page-footer-container {
   padding: 100px 0 100px;
 }
 
